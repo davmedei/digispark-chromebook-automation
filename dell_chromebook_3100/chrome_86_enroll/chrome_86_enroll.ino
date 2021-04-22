@@ -1,3 +1,6 @@
+// ENTERPRISE ENROLL NEW CHROMEBOOK
+// CHROME OS VERSION 86
+
 #include "DigiKeyboard.h"
 
 void setup() {}
@@ -33,7 +36,7 @@ void loop() {
   char ENROLLUSERNAME[] = "YOUR-ENROLL-USERNAME";
   char ENROLLPASSWORD[] = "YOUR-ENROLL-PASSWORD";
 
-  // CHROME OS VER 86 ENROLLMENT
+  // START TASK
   
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(MEDIUMDELAY);
@@ -112,9 +115,9 @@ void loop() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(MEDIUMDELAY);
   DigiKeyboard.print(ENROLLPASSWORD);
-  DigiKeyboard.sendKeyStroke(KEY_ENTER);
-
-  // END OF TASK
-  
+  DigiKeyboard.sendKeyStroke(KEY_ENTER);  
   DigiKeyboard.delay(10000000000);
+
+  // END TASK
+  
 }
