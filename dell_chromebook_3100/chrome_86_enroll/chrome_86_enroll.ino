@@ -7,8 +7,7 @@ void loop() {
   // DELAY VARIABLES
   // TYPE IN SECONDS HERE
   
-  float sd; 
-  int md, ld;
+  float sd, md, ld;
   
   sd = 0.5; // SHORT DELAY
   md = 10; // MEDIUM DELAY
@@ -16,8 +15,7 @@ void loop() {
 
   // CONVERT VARIABLES TO MILLISECONDS FOR DIGIKEYBOARD.DELAY()
 
-  float SHORTDELAY; 
-  int MEDIUMDELAY, LONGDELAY;
+  float SHORTDELAY, MEDIUMDELAY, LONGDELAY;
   
   SHORTDELAY = sd * 1000;
   MEDIUMDELAY = md * 1000;
