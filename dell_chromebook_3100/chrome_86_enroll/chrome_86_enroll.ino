@@ -19,6 +19,12 @@ void loop() {
   char WIFISSID[] = "YOUR-WIFI-SSID";
   char WIFIPASSWORD[] = "YOUR-WIFI-PASSWORD";
 
+  // ENTERPRISE ENROLLMENT LOGIN VARIABLES
+  // UPDATE 'YOUR-ENROLL-USERNAME' AND 'YOUR-ENROLL-PASSWORD'
+  
+  char ENROLLUSERNAME[] = "YOUR-ENROLL-USERNAME";
+  char ENROLLPASSWORD[] = "YOUR-ENROLL-PASSWORD";
+
   // CHROME OS VER 86 ENROLLMENT
   
   DigiKeyboard.sendKeyStroke(0);
@@ -94,10 +100,10 @@ void loop() {
   
   DigiKeyboard.sendKeyStroke(KEY_E, MOD_ALT_LEFT|MOD_CONTROL_LEFT);
   DigiKeyboard.delay(MEDIUMDELAY);
-  DigiKeyboard.print("ENROLLUSERNAME");
+  DigiKeyboard.print(ENROLLUSERNAME);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(MEDIUMDELAY);
-  DigiKeyboard.print("ENROLLPASSWORD");
+  DigiKeyboard.print(ENROLLPASSWORD);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 
   // END OF TASK
