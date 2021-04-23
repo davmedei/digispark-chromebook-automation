@@ -1,66 +1,95 @@
+// UPDATE CHROMEBOOK
+// CHROME OS VERSION 86
+
 #include "DigiKeyboard.h"
 
 void setup() {}
 
 void loop() {
 
-  // CHROME OS VER 86 UPDATE
+  // DELAY VARIABLES
+  // TYPE IN SECONDS HERE
+  
+  float sd, md, ld;
+  
+  sd = 0.5; // SHORT DELAY
+  md = 10; // MEDIUM DELAY
+  ld = 20; // LONG DELAY
+
+  // CONVERT VARIABLES TO MILLISECONDS FOR DIGIKEYBOARD.DELAY()
+
+  float SHORTDELAY, MEDIUMDELAY, LONGDELAY;
+  
+  SHORTDELAY = sd * 1000;
+  MEDIUMDELAY = md * 1000;
+  LONGDELAY = ld * 1000;
+
+  // USER LOGIN VARIABLES
+  // REPLACE 'YOUR-USERNAME' AND 'YOUR-PASSWORD'
+  
+  char ACCOUNTUSERNAME[] = "YOUR-USERNAME";
+  char ACCOUNTPASSWORD[] = "YOUR-PASSWORD";
+
+  // START TASK
   
   DigiKeyboard.sendKeyStroke(0);
-  DigiKeyboard.delay(5000);
+  DigiKeyboard.delay(MEDIUMDELAY);
   
   // ACCOUNT LOGIN
   
   DigiKeyboard.print("ACCOUNTUSERNAME");
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(10000);
+  DigiKeyboard.delay(MEDIUMDELAY);
   DigiKeyboard.print("ACCOUNTPASSWORD");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(30000);
+  DigiKeyboard.delay(LONGDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(5000);
+  DigiKeyboard.delay(MEDIUMDELAY);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(30000);
+  DigiKeyboard.delay(LONGDELAY);
 
   // OPEN SETTINGS AND RUN UPDATE
   
   DigiKeyboard.sendKeyStroke(KEY_S,MOD_ALT_LEFT|MOD_SHIFT_LEFT);
-  DigiKeyboard.delay(2000);
+  DigiKeyboard.delay(MEDIUMDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(15000);
+  DigiKeyboard.delay(LONGDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(43);
-  DigiKeyboard.delay(500);
+  DigiKeyboard.delay(SHORTDELAY);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
-  DigiKeyboard.delay(50000000);
+  DigiKeyboard.delay(10000000000);
+
+  // END TASK
+  
 }
