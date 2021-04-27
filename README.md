@@ -10,6 +10,11 @@ Required Hardware:
 
 * ATtiny85 General Micro USB Development Board for Arduino - [Amazon](https://www.amazon.com/AiTrip-Digispark-Kickstarter-Attiny85-Development/dp/B0836WXQQR/ref=sr_1_5?dchild=1&keywords=digispark+usb&qid=1619496257&sr=8-5)
 
+Tested Devices:
+
+* Dell Chromebook 3100
+* HP Chromebook 14 G4
+* HP Chromebook 14 G5
 
 # Setting Up Arduino IDE 1.8.13:
 
