@@ -13,18 +13,18 @@ ATtiny85 General Micro USB Development Board for Arduino - [Amazon](https://www.
 
 # Setting Up Arduino IDE 1.8.13:
 
-Download and install Arduino IDE 1.8.13
-Open Arduino IDE 1.8.13
-Go to File > Preferences
-Next to "Additional Boards Manager URLs:" type the following without quotation marks, "http://digistump.com/package_digistump_index.json"
-Click "OK"
+1. Download and install Arduino IDE 1.8.13
+2. Open Arduino IDE 1.8.13
+3. Go to File > Preferences
+4. Next to "Additional Boards Manager URLs:" type the following without quotation marks, "http://digistump.com/package_digistump_index.json"
+5. Click "OK"
 
-Go to Tools > Board > Boards Manager
-In the top left of the Boards Manager window, change the type to "Contributed"
-Look for "Digistump AVR Boards" and click "Install"
+6. Go to Tools > Board > Boards Manager
+7. In the top left of the Boards Manager window, change the type to "Contributed"
+8. Look for "Digistump AVR Boards" and click "Install"
 
-Go to Tools > Board
-Under "Digistump AVR Boards" select "Digispark (Default - 16.5mhz)"
+9. Go to Tools > Board
+10. Under "Digistump AVR Boards" select "Digispark (Default - 16.5mhz)"
 
-Go to Tools > Programmer
-Select "Micronucleus"
+11. Go to Tools > Programmer
+12. Select "Micronucleus"
