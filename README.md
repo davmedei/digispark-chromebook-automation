@@ -33,6 +33,6 @@ Tested Devices:
 
 # Verify And Upload Sketch:
 1. Open the sketch file for the task that you want to upload to the DigiSpark USB. <br /><img src="images/verify_and_upload/1.png"   width="500">
-2. Click "Verify" to check the code for errors. The console will display errors if any. Errors will need to be corrected before proceeding, otherwise the upload process will fail. <br /><img src="images/verify_and_upload/2.png"   width="500">
-3. Click "Upload" to being the upload process. Once the text in the console says "Plug in device now... (will timeout in 60 seconds)" plug in your DigiSpark USB. <br /><img src="images/verify_and_upload/3.png"   width="500">
+2. Click "Verify" to check the code for errors. The console will display errors if any. Errors will need to be corrected before proceeding, otherwise the upload process will fail. <br /><img src="images/verify_and_upload/2.png"   width="500"> <br /><img src="images/verify_and_upload/2.1.png"   width="500">
+3. Click "Upload" to being the upload process. Once the text in the console says "Plug in device now... (will timeout in 60 seconds)" plug in your DigiSpark USB. <br /><img src="images/verify_and_upload/3.png"   width="500"> <br /><img src="images/verify_and_upload/3.1.png"   width="500">
 4. When the console outputs "Micronucleus done. Thank you!" you may remove the DigiSpark USB. <br /><img src="images/verify_and_upload/4.png"   width="500">
