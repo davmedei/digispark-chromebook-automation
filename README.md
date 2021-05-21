@@ -39,6 +39,29 @@ Tested Devices:
 3. Open the extracted folder and run "Install Drivers". You will need to run as administrator to install. <br /><img src="images/install_digistump_drivers/3.png"   width="500">
 4. Complete the installation process. If you had the Arduino IDE open you will need to restart it for the changes to take effect.
 
+# Update Sketch Code For Chromebook Enrollment
+
+1. Open the enroll sketch file. Arduino sketch files have the extension: .ino <br />(Example: dell_chromebook_3100/chrome_86_enroll/chrome_86_enroll.ino)
+2. Look for the following lines:
+
+		char WIFISSID[] = "YOUR-WIFI-SSID";
+		char WIFIPASSWORD[] = "YOUR-WIFI-PASSWORD";
+				
+		char ENROLLUSERNAME[] = "YOUR-ENROLL-USERNAME";
+		char ENROLLPASSWORD[] = "YOUR-ENROLL-PASSWORD";
+
+3. Update the text within the quotations after the variable name. Update wifi SSID and password for adding the wifi network and update enroll username and password for the account to use for enrolling the Chromebooks. Example:
+
+		char WIFISSID[] = "student_wifi";
+		char WIFIPASSWORD[] = "1234567890";
+
+		char ENROLLUSERNAME[] = "enroll@your.domain.com";
+		char ENROLLPASSWORD[] = "0987654321";
+
+<br /><img src="images/update_sketch_code/3.png"   width="500">
+
+4. Save the sketch file.
+
 # Verify And Upload Sketch:
 1. Open the sketch file for the task that you want to upload to the DigiSpark USB. <br /><img src="images/verify_and_upload/1.png"   width="500">
 2. Click "Verify" to check the code for errors. The console will display errors if any. Errors will need to be corrected before proceeding, otherwise the upload process will fail. <br /><img src="images/verify_and_upload/2.png"   width="500"> <br /><img src="images/verify_and_upload/2.1.png"   width="500">
