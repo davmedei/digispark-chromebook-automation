@@ -34,9 +34,9 @@ Tested Devices:
 # Install DigistumpArduino Drivers
 
 1. Download the latest DigistumpArduino drivers from the DigiStump/DigistumpArduino GitHub page: [GitHub](https://github.com/digistump/DigistumpArduino/releases)
-<br />The latest version at the time of writing is 1.6.7
+<br />The latest version at the time of writing is 1.6.7 <br /><img src="images/install_digistump_drivers/1.png"   width="500">
 2. Extract the contents from downloaded zip file using a archive utility like WinRAR or 7Zip. You can use the built in archival tool as well by right clicking the zip files and selecting "Extract all".
-3. Open the extracted folder and run "Install Drivers". You will need to run as administrator to install.
+3. Open the extracted folder and run "Install Drivers". You will need to run as administrator to install. <br /><img src="images/install_digistump_drivers/3.png"   width="500">
 4. Complete the installation process. If you had the Arduino IDE open you will need to restart it for the changes to take effect.
 
 # Verify And Upload Sketch:
