@@ -31,6 +31,14 @@ Tested Devices:
 11. Go to Tools > Programmer
 12. Select "Micronucleus" <br /><img src="images/setting_up_arduino/12.png"   width="500">
 
+# Install DigistumpArduino Drivers
+
+1. Download the latest DigistumpArduino drivers from the DigiStump/DigistumpArduino GitHub page: [GitHub](https://github.com/digistump/DigistumpArduino/releases)
+<br />The latest version at the time of writing is 1.6.7
+2. Extract the contents from downloaded zip file using a archive utility like WinRAR or 7Zip. You can use the built in archival tool as well by right clicking the zip files and selecting "Extract all".
+3. Open the extracted folder and run "Install Drivers". You will need to run as administrator to install.
+4. Complete the installation process. If you had the Arduino IDE open you will need to restart it for the changes to take effect.
+
 # Verify And Upload Sketch:
 1. Open the sketch file for the task that you want to upload to the DigiSpark USB. <br /><img src="images/verify_and_upload/1.png"   width="500">
 2. Click "Verify" to check the code for errors. The console will display errors if any. Errors will need to be corrected before proceeding, otherwise the upload process will fail. <br /><img src="images/verify_and_upload/2.png"   width="500"> <br /><img src="images/verify_and_upload/2.1.png"   width="500">
